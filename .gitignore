@@ -1,0 +1,25 @@
+# Environment variables (Secrets)
+.env
+.env.local
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# IDEs
+.vscode/
+.idea/
+
+# Google Apps Script (Excluded as requested)
+code.gs
+sfapi.py
+*.gs
+
+# Local Data (Optional, exclude if you don't want data on repo)
+*.csv
+*.xlsx
+*.txt
